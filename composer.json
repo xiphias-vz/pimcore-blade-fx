@@ -1,0 +1,16 @@
+{
+    "name": "xiphias/pimcore-blade-fx",
+    "description": "BladeFX bundle made for Pimcore",
+    "autoload": {
+        "psr-4": {
+            "Xiphias\\PimcoreBladeFx\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Sara Kišić",
+            "email": "sara.kisic@xiphias.hr"
+        }
+    ],
+    "require": {}
+}
