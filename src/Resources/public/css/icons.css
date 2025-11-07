@@ -1,0 +1,18 @@
+.pimcore_main_nav_icon_bladefx {
+    background: url(/bundles/bladefx/img/bladefx-icon.svg) center center no-repeat;
+}
+
+.pimcore_blade-fx_favorite_report {
+    background: url(/bundles/bladefx/img/blade-fx_favorite.svg) center center no-repeat;
+}
+
+.pimcore_blade-fx_not_favorite_report {
+    background: url(/bundles/bladefx/img/blade-fx_not_favorite.svg) center center no-repeat;
+}
+
+
+#plugin_pimcore_datahub_icon_toolbar {
+    background-image: url(/bundles/pimcoreadmin/img/twemoji/2728.svg) !important;
+    filter: grayscale(0%) !important;
+    -webkit-filter: grayscale(0%) !important;
+}

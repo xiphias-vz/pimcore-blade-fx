@@ -1,9 +1,10 @@
 {
     "name": "xiphias/pimcore-blade-fx",
     "description": "BladeFX bundle made for Pimcore",
+    "type": "pimcore-bundle",
     "autoload": {
         "psr-4": {
-            "Xiphias\\PimcoreBladeFx\\": "src/"
+            "Xiphias\\Bundle\\PimcoreBladeFx\\": "src/"
         }
     },
     "authors": [
@@ -12,5 +13,24 @@
             "email": "sara.kisic@xiphias.hr"
         }
     ],
-    "require": {}
+    "require": {
+        "pimcore/pimcore": "^11.0",
+        "xiphias/bladefx-api-php": "dev-main"
+    },
+    "require-dev": {
+        "phpstan/phpstan-symfony": "^2.0",
+        "squizlabs/php_codesniffer": "^4.0"
+    },
+    "scripts": {
+        "analyse": "phpstan analyse",
+        "sniff": "phpcs src",
+        "fix": "phpcbf src"
+    },
+    "extra": {
+        "pimcore": {
+            "bundles": [
+                "Xiphias\\Bundle\\PimcoreBladeFx\\BladeFxBundle"
+            ]
+        }
+    }
 }

@@ -1,0 +1,12 @@
+.blade-fx_icon_only_btn {
+    background: none;
+    border: none;
+    box-shadow: none;
+    padding: 0;
+    margin: 0;
+}
+
+.blade-fx_icon_only_btn.x-btn-over {
+    background-color: transparent;
+    border: none;
+}

@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<ruleset name="BladeFxBundle Coding Standard">
+    <rule ref="PSR12"/>
+
+    <rule ref="Generic.Files.LineLength">
+        <properties>
+            <property name="lineLimit" value="180"/>
+            <property name="absoluteLineLimit" value="0"/>
+        </properties>
+    </rule>
+
+    <file>src</file>
+
+    <arg name="report" value="full"/>
+    <arg name="report-width" value="180"/>
+
+    <exclude-pattern>vendor/*</exclude-pattern>
+</ruleset>

@@ -1,0 +1,5 @@
+pimcore_admin:
+    admin_csp_header:
+        additional_urls:
+            frame-src:
+                - '%env(BLADEFX_API_ROOT_URL)%'
