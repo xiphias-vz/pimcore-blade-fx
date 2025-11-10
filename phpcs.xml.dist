@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<ruleset name="BladeFxBundle Coding Standard">
+<ruleset name="PimcoreBladeFxBundle Coding Standard">
     <rule ref="PSR12"/>
 
     <rule ref="Generic.Files.LineLength">

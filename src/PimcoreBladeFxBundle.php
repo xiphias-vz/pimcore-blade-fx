@@ -5,7 +5,7 @@ namespace Xiphias\Bundle\PimcoreBladeFx;
 use Pimcore\Extension\Bundle\AbstractPimcoreBundle;
 use Pimcore\Extension\Bundle\PimcoreBundleAdminClassicInterface;
 
-class BladeFxBundle extends AbstractPimcoreBundle implements PimcoreBundleAdminClassicInterface
+class PimcoreBladeFxBundle extends AbstractPimcoreBundle implements PimcoreBundleAdminClassicInterface
 {
     public function getJsPaths(): array
     {

@@ -29,7 +29,7 @@
     "extra": {
         "pimcore": {
             "bundles": [
-                "Xiphias\\Bundle\\PimcoreBladeFx\\BladeFxBundle"
+                "Xiphias\\Bundle\\BladeFxBundle\\PimcoreBladeFxBundle"
             ]
         }
     }
