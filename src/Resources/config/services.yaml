@@ -35,3 +35,9 @@ services:
         resource: '../../Service/Builder'
         autowire: true
         autoconfigure: true
+
+    Xiphias\BladeFxApi\BladeFxApiClient:
+        arguments:
+            $bladeFxBaseUrl: '%env(BLADEFX_API_BASE_URL)%'
+            $bladeFxUsername: '%env(BLADEFX_API_USERNAME)%'
+            $bladeFxPassword: '%env(BLADEFX_API_PASSWORD)%'

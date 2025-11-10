@@ -10,16 +10,16 @@ class PimcoreBladeFxBundle extends AbstractPimcoreBundle implements PimcoreBundl
     public function getJsPaths(): array
     {
         return [
-            '/bundles/bladefx/js/blade-fx.js',
-            '/bundles/bladefx/js/config.js',
+            '/bundles/pimcorebladefx/js/blade-fx.js',
+            '/bundles/pimcorebladefx/js/config.js',
         ];
     }
 
     public function getCssPaths(): array
     {
         return [
-            '/bundles/bladefx/css/icons.css',
-            '/bundles/bladefx/css/blade-fx.css',
+            '/bundles/pimcorebladefx/css/icons.css',
+            '/bundles/pimcorebladefx/css/blade-fx.css',
         ];
     }
 

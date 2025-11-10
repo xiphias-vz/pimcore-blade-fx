@@ -77,7 +77,7 @@ pimcore.plugin.bladefx = Class.create({
 
             let navEl = Ext.get('pimcore_menu_search').insertSibling('<li id="pimcore_menu_bladefx" data-menu-tooltip="'
                 + t('plugin_pimcore_blade_fx_toolbar') +
-                '" class="pimcore_menu_item pimcore_menu_needs_children"><img alt="bladefx" src="/bundles/bladefx/logo.webp"></li>', 'before');
+                '" class="pimcore_menu_item pimcore_menu_needs_children"><img alt="bladefx" src="/bundles/pimcorebladefx/logo.webp"></li>', 'before');
 
             navEl.on('mousedown', function () {
                 try {

@@ -1,13 +1,13 @@
 .pimcore_main_nav_icon_bladefx {
-    background: url(/bundles/bladefx/img/bladefx-icon.svg) center center no-repeat;
+    background: url(/bundles/pimcorebladefx/img/bladefx-icon.svg) center center no-repeat;
 }
 
 .pimcore_blade-fx_favorite_report {
-    background: url(/bundles/bladefx/img/blade-fx_favorite.svg) center center no-repeat;
+    background: url(/bundles/pimcorebladefx/img/blade-fx_favorite.svg) center center no-repeat;
 }
 
 .pimcore_blade-fx_not_favorite_report {
-    background: url(/bundles/bladefx/img/blade-fx_not_favorite.svg) center center no-repeat;
+    background: url(/bundles/pimcorebladefx/img/blade-fx_not_favorite.svg) center center no-repeat;
 }
 
 
