@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" role="img" aria-labelledby="title desc">
+    <title id="title">BFX Icon</title>
+    <desc id="desc">Logo-style icon with large B and smaller FX in white</desc>
+    <defs>
+        <style>
+            .big {
+            fill: #FFFFFF;
+            font-family: "Agency FB","Oswald","Kanit","Saira Condensed","Arial Narrow",Arial,sans-serif;
+            font-weight: 900;
+            font-style: italic;
+            }
+            .small {
+            fill: #FFFFFF;
+            font-family: "Agency FB","Oswald","Kanit","Saira Condensed","Arial Narrow",Arial,sans-serif;
+            font-style: italic;
+            }
+        </style>
+    </defs>
+
+    <!-- Big B -->
+    <text x="0" y="17" font-size="18" class="big">B</text>
+
+    <!-- Smaller FX -->
+    <text x="11" y="17" font-size="10" class="small">FX</text>
+</svg>
