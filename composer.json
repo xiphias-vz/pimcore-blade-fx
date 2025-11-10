@@ -11,6 +11,10 @@
         {
             "name": "Sara Kišić",
             "email": "sara.kisic@xiphias.hr"
+        },
+        {
+            "name": "Mihael Blažek",
+            "email": "mihael.blazek@xiphias.hr"
         }
     ],
     "require": {
