@@ -9,13 +9,13 @@ interface GridBuilderInterface
 {
     /**
      * @param array<BladeFxCategoryTransfer> $categoryTransfers
-     * @return array
+     * @return array<string, bool|int|string|null>
      */
     public function createCategoryTree(array $categoryTransfers): array;
 
     /**
      * @param PaginationTransfer $paginationTransfer
-     * @return array
+     * @return array<mixed>
      */
     public function paginateResults(PaginationTransfer $paginationTransfer): array;
 }

@@ -19,7 +19,7 @@ class GridBuilder implements GridBuilderInterface
 
     /**
      * @param array<BladeFxCategoryTransfer> $categoryTransfers
-     * @return array<string, mixed>
+     * @return array<mixed>
      */
     public function createCategoryTree(array $categoryTransfers): array
     {
@@ -49,7 +49,7 @@ class GridBuilder implements GridBuilderInterface
 
     /**
      * @param PaginationTransfer $paginationTransfer
-     * @return array
+     * @return array<mixed>
      */
     public function paginateResults(PaginationTransfer $paginationTransfer): array
     {

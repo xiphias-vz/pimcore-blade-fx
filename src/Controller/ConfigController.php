@@ -26,7 +26,7 @@ class ConfigController extends UserAwareController
 {
     use JsonHelperTrait;
 
-    public const string CONFIG_NAME = 'plugin_bladefx_config';
+    public const CONFIG_NAME = 'plugin_bladefx_config';
 
     /**
      * @param string $bladeFxRootUrl
@@ -35,8 +35,7 @@ class ConfigController extends UserAwareController
     public function __construct(
         protected string $bladeFxRootUrl,
         protected GridBuilderInterface $gridBuilder
-    )
-    {
+    ) {
     }
 
     /**
@@ -89,7 +88,7 @@ class ConfigController extends UserAwareController
 
     /**
      * @param Request $request
-     * @param array $data
+     * @param array<mixed> $data
      * @return PaginationTransfer
      */
     protected function createPaginationTransfer(Request $request, array $data): PaginationTransfer

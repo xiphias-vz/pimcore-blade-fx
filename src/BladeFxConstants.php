@@ -9,25 +9,25 @@ class BladeFxConstants
     /**
      * @var string
      */
-    public const string REQUEST_CATEGORY_ID = 'cat_id';
+    public const REQUEST_CATEGORY_ID = 'cat_id';
 
     /**
      * @var string
      */
-    public const string REQUEST_REPORT_ID = 'rep_id';
+    public const REQUEST_REPORT_ID = 'rep_id';
 
     /**
      * @var string
      */
-    public const string RESPONSE_IFRAME_URL = 'iframeUrl';
+    public const RESPONSE_IFRAME_URL = 'iframeUrl';
 
     /**
      * @var string
      */
-    public const string REQUEST_RETURN_TYPE_JSON = 'JSON';
+    public const REQUEST_RETURN_TYPE_JSON = 'JSON';
 
     /**
      * @var string
      */
-    public const string RESPONSE_TOTAL = 'total';
+    public const RESPONSE_TOTAL = 'total';
 }
