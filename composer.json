@@ -14,7 +14,7 @@
         }
     ],
     "require": {
-        "pimcore/pimcore": "*",
+        "pimcore/pimcore": "^11.0",
         "xiphias/bladefx-api-php": "dev-main"
     },
     "require-dev": {
