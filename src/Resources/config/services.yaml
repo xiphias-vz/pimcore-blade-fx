@@ -7,17 +7,17 @@ services:
         autoconfigure: true
         public: false
 
-    Xiphias\Bundle\PimcoreBladeFx\Controller\:
+    Xiphias\Bundle\BladeFxBundle\Controller\:
         resource: '../../Controller'
         public: true
         autowire: true
         autoconfigure: true
         tags: [ 'controller.service_arguments' ]
 
-    Xiphias\Bundle\PimcoreBladeFx\Controller\ConfigController:
+    Xiphias\Bundle\BladeFxBundle\Controller\ConfigController:
         arguments:
             $bladeFxRootUrl: '%blade-fx.api.root_url%'
-            $gridBuilder: '@Xiphias\Bundle\PimcoreBladeFx\Service\Builder\GridBuilderInterface'
+            $gridBuilder: '@Xiphias\Bundle\BladeFxBundle\Service\Builder\GridBuilderInterface'
 
     Xiphias\BladeFxApi\:
         resource: '%kernel.project_dir%/vendor/xiphias/bladefx-api-php/src/*'
@@ -31,7 +31,7 @@ services:
     Xiphias\BladeFxApi\Response\ResponseFactoryInterface:
         alias: Xiphias\BladeFxApi\Response\ResponseFactory
 
-    Xiphias\Bundle\PimcoreBladeFx\Service\Builder\:
+    Xiphias\Bundle\BladeFxBundle\Service\Builder\:
         resource: '../../Service/Builder'
         autowire: true
         autoconfigure: true

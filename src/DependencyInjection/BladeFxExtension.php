@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Xiphias\Bundle\PimcoreBladeFx\DependencyInjection;
+namespace Xiphias\Bundle\BladeFxBundle\DependencyInjection;
 
 use Exception;
 use Symfony\Component\Config\FileLocator;

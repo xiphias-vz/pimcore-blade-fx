@@ -1,8 +1,8 @@
 <?php
 
-namespace Xiphias\Bundle\PimcoreBladeFx\Service\Builder;
+namespace Xiphias\Bundle\BladeFxBundle\Service\Builder;
 
-use Xiphias\Bundle\PimcoreBladeFx\DTO\PaginationTransfer;
+use Xiphias\Bundle\BladeFxBundle\DTO\PaginationTransfer;
 use Xiphias\BladeFxApi\DTO\BladeFxCategoryTransfer;
 
 interface GridBuilderInterface

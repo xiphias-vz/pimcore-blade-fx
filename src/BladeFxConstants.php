@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Xiphias\Bundle\PimcoreBladeFx;
+namespace Xiphias\Bundle\BladeFxBundle;
 
 class BladeFxConstants
 {

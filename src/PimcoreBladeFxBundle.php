@@ -1,6 +1,6 @@
 <?php
 
-namespace Xiphias\Bundle\PimcoreBladeFx;
+namespace Xiphias\Bundle\BladeFxBundle;
 
 use Pimcore\Extension\Bundle\AbstractPimcoreBundle;
 use Pimcore\Extension\Bundle\PimcoreBundleAdminClassicInterface;

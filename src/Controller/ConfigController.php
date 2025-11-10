@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Xiphias\Bundle\PimcoreBladeFx\Controller;
+namespace Xiphias\Bundle\BladeFxBundle\Controller;
 
-use Xiphias\Bundle\PimcoreBladeFx\BladeFxConstants;
-use Xiphias\Bundle\PimcoreBladeFx\DTO\PaginationTransfer;
-use Xiphias\Bundle\PimcoreBladeFx\Service\Builder\GridBuilderInterface;
+use Xiphias\Bundle\BladeFxBundle\BladeFxConstants;
+use Xiphias\Bundle\BladeFxBundle\DTO\PaginationTransfer;
+use Xiphias\Bundle\BladeFxBundle\Service\Builder\GridBuilderInterface;
 use Pimcore\Controller\Traits\JsonHelperTrait;
 use Pimcore\Controller\UserAwareController;
 use Symfony\Component\HttpFoundation\JsonResponse;

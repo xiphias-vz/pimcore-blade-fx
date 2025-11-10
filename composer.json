@@ -4,7 +4,7 @@
     "type": "pimcore-bundle",
     "autoload": {
         "psr-4": {
-            "Xiphias\\Bundle\\PimcoreBladeFx\\": "src/"
+            "Xiphias\\Bundle\\BladeFxBundle\\": "src/"
         }
     },
     "authors": [

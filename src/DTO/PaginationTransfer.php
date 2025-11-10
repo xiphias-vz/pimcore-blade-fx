@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Xiphias\Bundle\PimcoreBladeFx\DTO;
+namespace Xiphias\Bundle\BladeFxBundle\DTO;
 
 use Xiphias\BladeFxApi\DTO\BladeFxReportTransfer;
 
