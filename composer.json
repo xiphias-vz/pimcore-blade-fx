@@ -2,6 +2,7 @@
     "name": "xiphias/pimcore-blade-fx",
     "description": "BladeFX bundle made for Pimcore",
     "type": "pimcore-bundle",
+    "license": "MIT",
     "autoload": {
         "psr-4": {
             "Xiphias\\Bundle\\BladeFxBundle\\": "src/"
@@ -19,7 +20,7 @@
     ],
     "require": {
         "pimcore/pimcore": "^11.0 || ^12.0",
-        "xiphias/bladefx-api-php": "dev-main"
+        "xiphias/bladefx-api-php": "^1.0"
     },
     "require-dev": {
         "phpstan/phpstan-symfony": "^2.0",
