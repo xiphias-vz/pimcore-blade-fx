@@ -35,8 +35,8 @@ class GridBuilder implements GridBuilderInterface
 
         foreach ($categoryTransfers as $categoryTransfer) {
             $treeElement = [
-                'id' => $categoryTransfer->getCatId(),
-                'text' => htmlspecialchars($categoryTransfer->getCatName()),
+                'id' => $categoryTransfer->getId(),
+                'text' => htmlspecialchars($categoryTransfer->getName()),
                 'type' => 'text',
                 'expandable' => false,
                 'leaf' => true,
