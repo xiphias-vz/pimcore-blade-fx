@@ -200,13 +200,9 @@ pimcore.plugin.bladefx.config = Class.create({
 
     onTreeStoreLoad: function (store, records) {
         if (!records || records.length === 0) return;
-        let firstNode = records[0];
+        const firstNode = records[0];
 
-        if (!firstNode.isLeaf() && firstNode.hasChildNodes()) {
-            firstNode = firstNode.firstChild;
-        }
-
-        if (firstNode && firstNode.isLeaf()) {
+        if (firstNode) {
             this.tree.getSelectionModel().select(firstNode);
             this.onTreeNodeClick(null, firstNode);
         }
@@ -221,10 +217,6 @@ pimcore.plugin.bladefx.config = Class.create({
     },
 
     onTreeNodeClick: function (tree, record, item, index, e, eOpts ) {
-        if (!record.isLeaf()) {
-            return;
-        }
-
         let grid = this.getGridPanel();
         let store = grid.getStore();
         store.getProxy().setExtraParam('cat_id', record.data.id);
