@@ -46,7 +46,7 @@ class GridBuilder implements GridBuilderInterface
             'text' => $this->translator->trans('plugin_blade_fx_all_categories', [], 'admin'),
             'type' => 'text',
             'expandable' => $children !== [],
-            'expanded' => false,
+            'expanded' => $children !== [],
             'leaf' => $children === [],
             'children' => $children,
         ]];
@@ -127,6 +127,7 @@ class GridBuilder implements GridBuilderInterface
                 'text' => htmlspecialchars((string) $value['name'], ENT_QUOTES | ENT_SUBSTITUTE, 'UTF-8'),
                 'type' => 'text',
                 'expandable' => $children !== [],
+                'expanded' => $children !== [],
                 'leaf' => $children === [],
             ];
 
