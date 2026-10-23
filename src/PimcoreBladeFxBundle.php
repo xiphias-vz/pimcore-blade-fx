@@ -25,11 +25,11 @@ class PimcoreBladeFxBundle extends AbstractPimcoreBundle implements PimcoreBundl
 
     public function getEditmodeJsPaths(): array
     {
-        return $this->getJsPaths();
+        return [];
     }
 
     public function getEditmodeCssPaths(): array
     {
-        return $this->getCssPaths();
+        return [];
     }
 }

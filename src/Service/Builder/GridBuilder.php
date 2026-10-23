@@ -53,9 +53,9 @@ class GridBuilder implements GridBuilderInterface
     }
 
     /**
-     * @param array $categories
+     * @param array<mixed> $categories
      *
-     * @return array
+     * @return array<mixed>
      */
     public function assembleCategoryTree(array $categories): array
     {
@@ -82,7 +82,10 @@ class GridBuilder implements GridBuilderInterface
             }
         }
 
-        $buildBranch = function (int $categoryId, array $ancestors = []) use (
+        $buildBranch = function (
+            int $categoryId,
+            array $ancestors = []
+        ) use (
             &$buildBranch,
             $categoryTree,
             $childrenByParent
